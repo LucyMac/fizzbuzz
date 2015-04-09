@@ -1,15 +1,24 @@
-for (var i = 1; i < 100; i++) {
-	if (i % 15 === 0) {
-		console.log('fizzbuzz')
-		}
-	else if (i % 3 === 0) {
-		console.log('fizz')
-		}
-	else if (i % 5 === 0) {
-		console.log('buzz')
-		}
-	else {
-		console.log(i)
-		}
-}
-	
+$(document).ready(function() {
+	$('button')
+		.click(
+			function() {
+				for (var i = 1; i <= 100; i++) {
+					if (i % 15 === 0) {
+						document.write('FizzBuzz');
+						document.write('<br></br>');
+						}
+					else if (i % 3 === 0) {
+						document.write('Fizz');
+						document.write('<br></br>');
+						}
+					else if (i % 5 === 0) {
+						document.write('Buzz');
+						document.write('<br></br>');
+						}
+					else {
+						document.write(i);
+						document.write('<br></br>');
+						}
+				}
+		})
+});
