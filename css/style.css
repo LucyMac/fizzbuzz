@@ -1,0 +1,49 @@
+body {
+	background-color: #51e8c2;
+	font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.button-container {
+	margin-bottom: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 6em;
+	padding-bottom: 3em;
+	max-width: 200px;
+}
+
+button {
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	background-color: #51e8c2;
+	border: 3px solid #fff;
+	padding: 15px 18px;
+	max-width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#numbers {
+	font-size: 15px;
+	color: #0c9e9b;
+	font-weight: bolder;
+	-webkit-columns: 10 60px;
+	-moz-columns: 10 60px;
+	columns: 10 60px;
+	-webkit-column-gap: 2em;
+	-moz-column-gap: 2em;
+	column-gap: 2em;
+}
+
+:focus {
+	outline: none;
+}
+
+.credits {
+	clear: both;
+	padding: 2em;
+	text-align: right;
+	font-size: 12px;
+	color: #fff;
+}
