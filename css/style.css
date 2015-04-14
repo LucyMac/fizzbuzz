@@ -28,6 +28,7 @@ button {
 	font-size: 15px;
 	color: #0c9e9b;
 	font-weight: bolder;
+	padding-left: 15px;
 	-webkit-columns: 10 60px;
 	-moz-columns: 10 60px;
 	columns: 10 60px;
