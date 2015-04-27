@@ -1,51 +1,24 @@
-body {
-	background-color: #51e8c2;
-	font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+html {
+  background-color: #f2dee8;
 }
 
-.button-container {
-	margin-bottom: 2em;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 6em;
-	padding-bottom: 3em;
-	max-width: 200px;
+div {
+  font-family: Arial;
 }
 
-button {
-	font-size: 18px;
-	color: #fff;
-	text-align: center;
-	background-color: #51e8c2;
-	border: 3px solid #fff;
-	padding: 15px 18px;
-	max-width: 200px;
-	margin-left: auto;
-	margin-right: auto;
-	cursor: pointer;
-}
-
-#numbers {
-	font-size: 15px;
-	color: #0c9e9b;
-	font-weight: bolder;
-	padding-left: 15px;
-	-webkit-columns: 10 60px;
-	-moz-columns: 10 60px;
-	columns: 10 60px;
-	-webkit-column-gap: 2em;
-	-moz-column-gap: 2em;
-	column-gap: 2em;
+.instructions {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #6d6067;
 }
 
 :focus {
-	outline: none;
+  outline: none;
 }
 
-.credits {
-	clear: both;
-	padding: 2em;
-	text-align: right;
-	font-size: 12px;
-	color: #fff;
+#submit {
+  background-color: #fff;
+  border: 1px solid #ed2d8d;
+  color: #ed2d8d;
+  cursor: pointer;
 }
